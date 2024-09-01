@@ -9,13 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.5",
+    "@clerk/clerk-expo": "^1.2.1",
+    "@react-navigation/bottom-tabs": "^6.5.20",
     "expo": "~51.0.14",
+    "expo-secure-store": "^13.0.1",
     "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "graphql": "^15.8.0",
+    "graphql-request": "^7.0.1",
+    "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-native": "0.74.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.3.2"
   },
   "private": true
 }
